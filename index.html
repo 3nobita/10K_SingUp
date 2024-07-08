@@ -79,6 +79,7 @@
             font-style: normal;
             border-radius: 5px;
             width: 100%;
+            cursor: pointer;
         }
 
         fieldset {
@@ -120,10 +121,6 @@
                 max-width: 480px;
             }
         }
-        a {
-            color: #FFF;
-            text-decoration: none;
-        }
     </style>
 </head>
 
@@ -131,7 +128,7 @@
     <div class="row">
         <div class="col-md-12">
             <form action="signup.ejs" method="post">
-                <h1> Sign Up </h1>
+                <h1>Sign Up</h1>
                 <fieldset>
                     <legend><span class="number">1</span> Your Basic Info</legend>
                     <label for="name">Name:</label>
@@ -152,7 +149,7 @@
                         </optgroup>
                     </select>
                 </fieldset>
-                <button type="submit"><a href="https://3nobita.github.io/10K_login/">SignUp</a></button>
+                <button type="button" onclick="window.location.href='https://3nobita.github.io/10K_login/'">Sign Up</button>
             </form>
         </div>
     </div>
